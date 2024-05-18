@@ -1,0 +1,27 @@
+// glitter.gxps
+
+start particle_system
+
+image color = Objects\Images\glitter.bmp
+image alpha = Objects\Images\glitter_fa.bmp
+emitter type = circle
+emitter radius = 10
+attached = false
+direction type = fixed
+direction x = 0
+direction y = 1
+direction z = 0
+velocity type = fixed
+velocity min = 8
+velocity max = 10
+transparency type = fade
+transparency start = 1.0
+transparency end = 0.5
+size type = lifetime_variable
+size start = 50
+size end = 15
+population = 12
+lifespan min = 0.6
+lifespan max = 0.9
+
+end
